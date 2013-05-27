@@ -374,7 +374,7 @@ public abstract class JOGL2DPlot implements GLEventListener{
 	
 	private void drawGraphFrame(){
 		gl.glPolygonMode(GL2.GL_FRONT_AND_BACK,GL2.GL_LINE);
-		gl.glLineWidth(2f);
+		gl.glLineWidth(1f);
 		gl.glColor4f(0.0f, 0.0f, 0.0f,1.0f);
 		gl.glBegin(GL2.GL_QUADS);
 		gl.glVertex2f(rect.xMin,rect.yMax);

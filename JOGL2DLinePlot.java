@@ -70,6 +70,7 @@ public class JOGL2DLinePlot extends JOGL2DPlot{
 	@Override
 	protected void render(GLAutoDrawable drawable) {
 		// TODO Auto-generated method stub
+		gl.glLineWidth(2f);
         for (Points pts : data){
         	if (pts.isShown && pts.points.length>1){
         		for(int i = 0; i < pts.points.length-1; ++i){
@@ -81,6 +82,7 @@ public class JOGL2DLinePlot extends JOGL2DPlot{
         		}	
         	}
         }
+        gl.glLineWidth(1f);
 	}
 
 	@Override

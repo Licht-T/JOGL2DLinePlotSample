@@ -7,7 +7,7 @@ public class JOGL2DTestPlot{
 	private static JOGL2DLinePlot lineplot;
 	
 	public static void main(String[] args){
-		lineplot = new JOGL2DLinePlot("Fourier", -2, 2, -0.f, 0.4f, "x", "y", "#.###");
+		lineplot = new JOGL2DLinePlot("Fourier", -2, 2, 0.f, 0.4f, "t", "u(t)", "#.###");
 		
 		
 		Points pts1= lineplot.new Points(1000, new float[]{1f,0f,0f,0.5f}){
