@@ -67,7 +67,7 @@ public class JOGL2DTestPlot{
 			@Override
 			protected float func(float x) {
 				// TODO Auto-generated method stub
-				return f(x,7);
+				return f(x,5);
 			}
 		};
 		lineplot.addPoints(pts2);
